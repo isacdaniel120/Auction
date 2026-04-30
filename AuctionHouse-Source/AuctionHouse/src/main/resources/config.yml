@@ -1,0 +1,28 @@
+settings:
+  tax: 5 # percent taken from sales
+  max-listings-default: 5
+  max-listings-vip: 15
+  expire-hours: 48
+  currency-symbol: "$"
+
+messages:
+  prefix: "&8[&6AH&8] &r"
+  no-permission: "&cYou don't have permission!"
+  item-listed: "&aItem listed for &6{price}&a!"
+  item-sold: "&aYour &6{item} &asold for &6{price}&a!"
+  item-purchased: "&aYou purchased &6{item} &afor &6{price}&a!"
+  item-expired: "&cYour &6{item} &chas expired and returned to inbox."
+  no-money: "&cYou don't have enough money!"
+  inventory-full: "&cYour inventory is full! Check your inbox."
+  listing-limit: "&cYou've reached your listing limit!"
+  hand-empty: "&cHold an item to sell!"
+  invalid-price: "&cInvalid price!"
+  min-price: "&cMinimum price is &6{min}&c!"
+  max-price: "&cMaximum price is &6{max}&c!"
+  own-listing: "&cYou can't buy your own listing!"
+  listing-gone: "&cThis listing is no longer available!"
+  reload: "&aConfig reloaded!"
+
+limits:
+  min-price: 1
+  max-price: 1000000000

@@ -1,0 +1,35 @@
+name: AuctionHouse
+version: 1.0.0
+main: dev.auction.auctionhouse.AuctionHouse
+api-version: '1.21'
+description: DonutSMP-style Auction House
+authors: [YourName]
+depend: [Vault]
+
+commands:
+  ah:
+    description: Open the Auction House
+    usage: /ah [sell <price> | search <query> | inbox | reload]
+
+permissions:
+  ah.use:
+    description: Use the auction house
+    default: true
+  ah.sell:
+    description: Sell items
+    default: true
+  ah.admin:
+    description: Admin commands
+    default: op
+  ah.reload:
+    description: Reload config
+    default: op
+  ah.noconfirm:
+    description: Skip purchase confirmation
+    default: false
+  ah.limit.default:
+    description: Default listing limit
+    default: true
+  ah.limit.vip:
+    description: VIP listing limit
+    default: false
